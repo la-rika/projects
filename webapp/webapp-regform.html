@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <link rel="icon" href="user.png">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css-webapp.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div class="form">
+        <h3>REGISTRATI</h3>
+        <form method="POST" action="Inserimento">
+            <input placeholder="inserisci il nome" type="text" name="nome" required="required">
+            <br><br>
+            <input placeholder="inserisci il cognome" type="text" name="cognome" required="required">
+            <br><br>
+            <input   placeholder="dd/mm/yyyy" type="date" name="datadinascita" required="required">
+            <br><br>
+            <input placeholder="inserisci il codifce fiscale" type="text" name="cf" required="required">
+            <br><br>
+            <button class="formbtn" type="reset">Cancella</button>
+            <button class="formbtn" type="submit" onclick="ConfermaInserimento.jsp">Invia</button>
+        </form>
+    
+    </div>
+
+</body>
+</html>

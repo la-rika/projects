@@ -4,7 +4,7 @@ body{
     margin: 10% auto;
 	width: 50%;
 	text-align: center;
-    background-color: rgb(35, 102, 190);
+    background-image: url(blue_light_line_65813_1920x1080.jpg);
 }
 
 h1{
@@ -28,7 +28,7 @@ a{
     padding: 2.5%;
     font-size: 20px;
     border-radius: 7%;
-    background-color: rgb(35, 102, 190);
+    background-color: rgb(135, 170, 216);
     font-family: 'Courier New', Courier, monospace;
     color: white;
     border: solid 2px white;
@@ -80,12 +80,83 @@ a{
 }
 
 a:hover{
-    color: rgb(35, 102, 190);
+    color: rgb(56, 91, 136);
     font-weight: bolder;
 
 }
 
 /*TABLE.HTML*/
+table{
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    border-radius:6px;
+    box-shadow:8px 10px 15px rgb(43, 43, 43);
+}
 
+th{
+    background-color: rgb(58, 81, 111);
+    color: white;
+    font-family:'Raleway', sans-serif;
+    font-weight: 300;
+    text-align: left;
+    padding: 10px;
+    border-top: none;
+}
+
+td{
+    text-align: left;
+    padding: 10px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 300;
+    color: rgb(119, 119, 119);
+}
+
+td > a{
+    color:  rgb(58, 81, 111);
+}
+
+td > a.del{
+    color: red;
+}
+
+
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/*FORM REGISTRAZIONE.HTML*/
+.form{
+    background-color: white;
+    width: 60%;
+    height: 65%;
+    margin: 10% auto;
+    padding: 4% 10%;
+    border-radius: 2%;
+    box-shadow:8px 10px 15px rgb(43, 43, 43);   
+}
+
+div.form > h3{
+    text-align: left;
+    font-family:'Raleway', sans-serif;
+    font-size: x-large;
+    color: rgb(58, 81, 111);
+}
+
+input{
+    width: 100%;
+    padding: 3%;
+    border: 2px solid #f2f2f2;
+    border-radius: 2%;
+    box-shadow: 3px 5px 10px lightgrey;
+}
+
+.formbtn{
+    border: 2px solid #f2f2f2;
+    border-radius: 4%;
+    padding: 2%;
+    color: rgb(87, 87, 87);
+}
 
 
